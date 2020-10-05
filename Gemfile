@@ -31,6 +31,11 @@ gem "autoprefixer-rails"
 
 gem 'devise'
 gem 'omniauth-facebook'
+gem 'omniauth-twitter'
+gem 'omniauth-github'
+gem 'omniauth-google-oauth2'
+gem 'activerecord-session_store'
+
 
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass'

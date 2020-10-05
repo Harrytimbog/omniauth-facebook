@@ -273,6 +273,9 @@ Devise.setup do |config|
   # up on your models and hooks.
   # config.omniauth :github, 'APP_ID', 'APP_SECRET', scope: 'user,public_repo'
   config.omniauth :facebook, Rails.application.credentials.facebook[:APP_ID], Rails.application.credentials.facebook[:APP_SECRET], token_params: { parse: :json }
+#  config.omniauth :twitter Rails.application.credentials.twitter[:APP_ID], Rails.application.credentials.twitter[:APP_SECRET], token_params: { parse: :json }
+#  config.omniauth :github, Rails.application.credentials.github[:APP_ID], Rails.application.credentials.github[:APP_SECRET], token_params: { parse: :json }
+
 
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or
