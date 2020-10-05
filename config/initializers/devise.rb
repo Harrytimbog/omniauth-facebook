@@ -275,6 +275,7 @@ Devise.setup do |config|
   config.omniauth :facebook, Rails.application.credentials.facebook[:APP_ID], Rails.application.credentials.facebook[:APP_SECRET], token_params: { parse: :json }
 #  config.omniauth :twitter Rails.application.credentials.twitter[:APP_ID], Rails.application.credentials.twitter[:APP_SECRET], token_params: { parse: :json }
 #  config.omniauth :github, Rails.application.credentials.github[:APP_ID], Rails.application.credentials.github[:APP_SECRET], token_params: { parse: :json }
+  config.omniauth :google_oauth2, 'GOOGLE_CLIENT_ID', 'GOOGLE_CLIENT_SECRET', {}
 
 
   # ==> Warden configuration
